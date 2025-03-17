@@ -1,0 +1,74 @@
+body {
+    background-size: contain;
+    background-image: url("graphics/bg2.PNG");
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); /* Default to 10 columns */
+    /*grid-template-rows: repeat(10, 1fr);*/
+    grid-template-rows: repeat(8, 1fr);
+    gap: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    height: 50%;
+    outline: 5px solid black;
+    font-family: "Arial Narrow", Helvetica, sans-serif;
+    text-align: center;
+    background: #55aaff;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    grid-column: span 10;
+    grid-row: 1
+}
+
+.bedroom {
+    width: 100%;
+    height: auto;
+    grid-column: 1 / 5;
+    grid-row: span 2
+}
+
+.foyer {
+    width: 100%;
+    height: auto;
+    grid-column: 6 / 10;
+    grid-row: span 2
+}
+
+.hallway {
+    width: 100%;
+    height: auto;
+    grid-column: 2 / 6;
+    grid-row: span 3
+}
+
+.heart {
+    width: 110%;
+    height: auto;
+    grid-column: 7 / 10;
+    grid-row: span 5
+}
+
+.monke {
+    width: 100%;
+    height: auto;
+    grid-column: 1 / 4;
+    grid-row: span 5
+}
+
+.quarantine {
+    width: 100%;
+    height: auto;
+    grid-column: 1 / 7;
+    grid-row: span 6
+}
+
+.shoes {
+    width: 100%;
+    height: auto;
+    grid-column: 1 / 4;
+    grid-row: span 7
+}
