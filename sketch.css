@@ -1,0 +1,50 @@
+body {
+    background-image: url("bgs/sketch-bg.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ef9de8;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: 400;
+    font-size: 5vw;
+    color: rgb(219, 25, 183);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.sketches-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    object-fit: contain;
+}
+
+.ruins {
+    width: clamp(100px, 27vw, 400px);
+    height: auto;
+}
+
+.honeysuckle {
+    width: clamp(100px, 27vw, 400px);
+    height: auto;
+}
+
+.kazuha {
+    width: clamp(100px, 27vw, 400px);
+    height: auto;
+}

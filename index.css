@@ -1,11 +1,11 @@
 body {
     background-image: url("bgs/night-bg.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: #6d84c8;
     overflow: hidden;
     width: 100%;
-    height: 100vh;
+    height: auto;
 }
 
 * {
@@ -19,7 +19,7 @@ body {
 }
 
 .header {
-    max-width: 100%;
+    width: clamp(350px, 90vw, 1500px);
     height: auto;
 }
 
